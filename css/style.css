@@ -125,7 +125,7 @@
 /* second section styles */
 
 .container-1{
-    max-width: 1920px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
