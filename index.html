@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+	<!-- fonts for header -->
+	<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3775c3df5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header class="header-wraper">
+        <div class="container-header header-flex">
+		<div class="logo">
+            <a href="#">
+                <img src="img/logo.png" alt="logo">
+            </a>
+		</div>
+		<div class="list">
+            <nav class="navigation">
+                <ul class="nav-ul">
+                    <li class="nav-li">
+                        <a class="nav-a" href="#"> Home </a>
+                    </li>
+                    <li class="nav-li">
+                        <a class="nav-a" href="#"> Profiles </a>
+                    </li>
+                    <li class="nav-li">
+                        <a  class="nav-a" href="#"> Practice Areas </a>
+                    </li>
+                    <li class="nav-li">
+                        <a  class="nav-a" href="#"> Testimonials </a>
+                    </li>
+					<li class="nav-li">
+                        <a  class="nav-a" href="#"> Blog </a>
+                    </li>
+					<li class="nav-li">
+                        <a  class="nav-a" href="#"> Cntact Us </a>
+                    </li>
+                </ul>
+            </nav>
+		</div>
+		<!-- I need to organize when the burger icon appears -->
+            <div class="burger-icon">
+                <i class="fas fa-bars"></i>
+            </div>
+		<!-- this box will be the text on the header in the middle -->
+        </div>
+		<div class="par-box">
+			<h4 class="heading-h4"> FOUNDED BY EXPERT ATTORNEYS </h4>
+        	<h1 class="heading-h1 animate__animated animate__pulse"> We fight for the compensation you deserve! </h1>
+			<p class="par-style">Excepteur sint occaecat cupidatat non proident sunt in culpa qui ofﬁcia deserunt mollit anim idsum est laborum.</p>
+    	<div class="contact-us-box"> <h2 class="heading-h2">CONTACT US NOW </h2> </div>
+		</div>
+	</header>
+ <section>
+        <div class="container-1">
+            <div class="img-box">
+                <img src="img/guy.png" alt="image">
+            </div>
+            <div class="text-box">
+                    <h3 class="heading-h3 animate__animated animate__pulse"> Chicago Personal Injury Attorneys The Horwitz Law Group </h3>
+                    <p class="par-1"> The Horwitz Law Group has a history of winning key Chicago Car Accident Cases as well as serious personal injury cases.</p>
+                    <p class="par-2">  If you have been injured because someone else was careless or negligent, you may have a right to receive financial compensation for the damages you have suffered. Obtaining fair compensation for damages is not an easy process. You need a dedicated Chicago personal injury lawyer to fight for your rights. The lawyers of The Horwitz Law Group will stand up and fight for you. </p>
+                <div class="more-about-box"> 
+                    <h1 class="icon-text"> <a href="#"> MORE ABOUT US </a> </h1>
+                </div>
+                <div class="signature-box" >
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="169" height="58" viewBox="0 0 169 58">
+                        <image id="Rectangle_418" data-name="Rectangle 418" width="169" height="58" xlink:href="data:image/png;base64,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"/>
+                      </svg>
+                </div>    
+        </div>
+    </section>
+    <!-- Legal practice's selection section -->
+    <section>
+        <div class="background">
+            <div class="heading-box" >
+            <h1 class="head-2"> WHAT WE ARE EXPERT AT</h1>
+            <h3 class="head-3 animate__animated animate__pulse"> Legal Practice Areas </h3>
+        </div>
+            <div class="box-wraper">
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/worker.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> WORKERS' COMPENSATION </h3>
+                    <p class="section-3-para">Second on global for on releases business the advised transactions. 
+                        finance on awards, 
+                        breadth worldwide. Our for our we second winners our financing needs</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/car.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> AUTOMOBILE ACCIDENTS</h3>
+                    <p class="section-3-para">Firm surveyed explore announced an for and for december an ranked & are 
+                        across a advised about to  as 
+                        wherever and aircraft resolve asia global finance by</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/injuries.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> WORKPLACE INJURIES </h3>
+                    <p class="section-3-para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/medical.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> MEDICAL MALPRACTICE</h3>
+                    <p class="section-3-para"> Our integrated global chemicals group includes lawyers across jurisdictions,
+                        practice areas and countries, 
+                        with experience spanning the range of regulatory, financing,</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/death.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> WRONGFUL DEATH </h3>
+                    <p class="section-3-para"> Chemical companies, investors, financial institutions and other organizations in the chemicals sector
+                        need their advisers to have a deep understanding of the</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+                <div class="small-box">
+                    <div class="icon">
+                        <img src="img/law.png" alt="icon">
+                    </div>
+                    <h3 class="sect-3-heading"> OTHER PRACTICE AREAS </h3>
+                    <p class="section-3-para">How does the system generate all this custom content? It actually skims Wikipedia pages related to your search, 
+                        copy-and-pasting information and reformatting</p>
+                    <a href="#"> <img src="img/readmore.png" alt=""> </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <!-- Reasons to hire us section -->
+    <section>
+        <div class="reasons-section">
+            <div class="heading-container">
+                <h1 class="reasons-heading-main"> WHY CHOOSE HICKS & HYNSON </h1>
+                <h3 class="reasons-heading"> 3 Reasons to Hire Us </h3>
+            </div>
+            <div class="reasons-container">
+                <div class="reasons-box">
+                    <img src="img/01..png" alt="image">
+                    <H1 class="reasons-heading1">EXPERIENCED</H1>
+                    <p class="reasons-para"> His outside the handwriting cache right, fitted the to excessive around my that he will parts forwards, discipline's every a arrive approach by monstrous and and butter turner. On impact</p>
+                </div>
+                <div class="reasons-box">
+                    <img src="img/02..png" alt="image">
+                    <H1 class="reasons-heading1">FOCUSED ON YOU</H1>
+                    <p class="reasons-para"> His outside the handwriting cache right, fitted the to excessive around my that he will parts forwards, discipline's every a arrive approach by monstrous and and butter turner. On impact </p>
+                    </div>
+                <div class="reasons-box">
+                    <img src="img/03..png" alt="image">
+                    <H1 class="reasons-heading1">REPUTATION</H1>
+                    <p class="reasons-para"> A be nothing slogging history Mr. Called the statement and matters wow harmonics. Me, a audiences my or first think the to neighbours the ducks. The people organization. Freshlybrewed neighbours was it of emphasis  </p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- black box section -->
+    <section>
+        <div class="black-box-1">
+            <div class="blue-box">
+                <div class="margin-blue-box">
+                    <img class="logo-padding" src="img/Group 674.png" alt="icon">
+                    <p class="para-padding-bottom">Helping The Injured People & Get Your Desired Results Since 2000</p>
+                    <div class="golden-button para-style"> GET STARTED WITH YOUR ASE TODAY! </div>
+                </div>
+            </div>
+            <div class="percentage-box">
+                <div class="first-line">
+                    <div class="right-space">
+                        <img src="img/95%.png" alt="icon">
+                        <p class="para-style"> Cases Won </p>
+                    </div>
+                    <div>
+                        <img src="img/899.png" alt="icon">
+                        <p class="para-style">Trusted Client </p>
+                    </div>
+                <div>
+                <div class="first-line">
+                    <div class="right-space2">
+                        <img src="img/165+.png" alt="icon">
+                        <p class="para-style"> Dedicated Lawyer </p>
+                    </div>
+                    <div>
+                        <img src="img/25%.png" alt="icon">
+                        <p class="para-style"> Cases Dismissed </p>
+                    </div>
+                <div>
+            </div>
+        </div>
+    </section>
+    <!-- Section 4 -->
+    <section>
+        <div class="background-4">
+            <div class="heading-box-4" >
+                <h3 class="heading-3"> Meet Our Legal Team </h3>
+                <h1 class="heading-2"> To learn more about our Chicago personal injury attorneys, please follow the links below </h1>
+            </div>
+            <div class="box-wraper-1">
+                <div class="small-box-1">
+                    <div class="icon">
+                        <img src="img/benjamin-parker-OhKElOkQ3RE-unsplash.png" alt="icon">
+                    </div>
+                    <a href="#"> <h1 class="name-heading"> Devil Roy Barman </h1> </a>
+                    <h3 class="position-heading"> Managing Partner </h3>
+                </div>
+                <div class="small-box-1">
+                    <div class="icon">
+                        <img src="img/adult-business-businessman-2182970.png" alt="icon">
+                    </div>
+                    <a href="#"><h1 class="name-heading"> Jared J. Duggan</h1></a>
+                    <h3 class="position-heading"> Managing Attorney </h3>
+                </div>
+               <div class="small-box-1">
+                    <div class="icon">
+                        <img src="img/banter-snaps-pzOUnvx9c1E-unsplash.png" alt="icon">
+                    </div>
+                    <a href="3"> <h1 class="name-heading"> Lindsey A. Seeskin </h1> </a>
+                    <h3 class="position-heading"> Associate Attorney </h3>
+                </div>
+                <div class="small-box-1">
+                    <div class="icon">
+                        <img src="img/gregory-hayes-h5cd51KXmRQ-unsplash (1).png" alt="icon">
+                    </div>
+                    <a href="#"><h1 class="name-heading"> Krystyna A. Kudlata </h1> </a>
+                    <h3 class="position-heading"> Associate Attorney </h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- contact section -->
+    <section>
+        <div class="contact-container-box">
+            <div class="contact-left-box">
+                <h1 class="contact-main-heading">Free Consulting </h1>
+                <h3 class="contact-heading"> Call us 24/7 at 312-641-9200 or fill out the form. </h3>
+                <p class="contact-par"> It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less able English content of a page.</p>
+            </div>
+            <div class="contact-right-box">
+                <div class="name-box">
+                    <label for=""> </label>
+                        <input class="input-style" type="text" id="name" name="name" placeholder="YOUR NAME" required >
+                        <label for="""></label>
+                        <input class="input-style" type="tel" id="phone" name="phone" placeholder="PHONE">
+                </div>
+                <div class="email-box">
+                    <label for=""> </label>
+                        <input class="input-style" type="text" id="e-mail" name="e-mail" placeholder="EMAIL" required >
+                    <label for=""> </label>
+                        <input class="input-style" type="text" id="workfield" name="workfield" placeholder="BUSINESS LAW" required >
+                </div>
+                <div class="description-box-1">
+                    <label></label>
+                    <textarea class="description-box" name="" id="" cols="30" rows="10" placeholder="CASE DESCRIPTION"></textarea>
+                </div class="appointment-box" >
+                <input class="appointment-button" type="submit" value="APPOINTMENT">
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER -->
+    <footer>
+        <div class="black-box">
+            <h2 class="black-box-heading"> Stay updated with news Subscribe to our Newsletter </h2>
+            <div class="e-mail-box">
+                <label for=""> </label>
+                    <input class="subscribe-email" type="text" id="e-mail" name="e-mail" placeholder="EMAIL" required >
+                    <input class="subscribe-button" type="submit" value="SUBSCRIBE">
+            </div>
+        </div>
+        <div class="footer-container">
+            <div class="footer-box">
+                <div class="logo-footer">
+                    <img src="img/logotwo.png" alt="logo">
+                </div>
+                <p class="footer-para"> The attorneys of The Horwitz Law Group in Chicago represent clients throughout Chicagoland and in Lombard, Naperville, Skokie, Evanston, Oak Park, Garfield Park, Elmhurst, Wheaton, Joliet, Lockport, Plainfield, Geneva, St. Charles, Arlington Heights, Niles, Des Plaines, Harvey, Homewood, Richton Park, Villa Park, Carol Stream, Morton Grove, Lincolnwood, Schaumburg, Hoffman Estates, Cook County, DuPage County, Will County and Kane County, Illinois. </p>
+            </div>
+            <div class="footer-box">
+                <h3 class="footer-heading"> PRACTICE AREAS </h3>
+                <nav>
+                    <ul>
+                        <li class="footer-list"> 
+                            <img src="img/Group 639.png" alt=" icon"> Business Law
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Family Law
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Real Estate Law
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Education Law
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon">Criminal Law
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3 class="footer-heading"> Quick links </h3>
+                <nav>
+                    <ul>
+                        <li class="footer-list"> 
+                            <img src="img/Group 639.png" alt=" icon"> Home
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> About
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Cases
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Blog
+                        </li>
+                        <li class="footer-list">
+                            <img src="img/Group 639.png" alt=" icon"> Contact
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer-box">
+                <h3 class="footer-heading"> ELMHUST OFFICE </h3>
+                <nav>
+                    <ul>
+                        <li class="footer-list"> 
+                            20 N. Clark Street Suite 3300
+                            Chicago, IL 60602 | USA
+                        </li>
+                        <li class="footer-list">
+                            Phone: <a href="tel:123-456-7890">312-641-9200</a>
+                        </li>
+                        <li class="footer-list">
+                            Email: <a href="mailto:info@example.com"> info@example.com</a>
+                        </li>
+                        <li class="footer-list">
+                            Fax: <a href="fax:312-641-9201"> 312-641-9201 </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
