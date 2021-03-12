@@ -1,0 +1,21 @@
+/* second section responsive */
+@media (max-width: 1140px){
+  .container-1{
+  flex-wrap: wrap;
+  justify-content: center;
+  }
+}
+
+@media (max-width:550px){
+  .img-box{
+    max-width: 315px;
+    width: 100%;
+    margin-top: 50px;
+  }
+  .img-box img{
+      width: 315px;
+  }
+  .container-1 p {
+      width: 315px;
+  }
+}
