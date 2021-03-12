@@ -6,6 +6,30 @@
   }
 }
 
+@media (max-width: 1040px){
+  .background-4{
+    margin-top: 400px;
+  }
+}
+
+@media (max-width: 933px){
+  .list{
+    display: none;
+  }
+  .burger-icon{
+    display: block;
+    color: white;
+    font-size: 40px;
+  }
+}
+
+@media (max-width:817px){
+  .box-wraper{
+    justify-content: center;
+  }
+}
+
+
 @media (max-width:690px){
   .img-box{
     max-width: 315px;
@@ -16,8 +40,106 @@
       max-width: 315px;
       width: 100%;
   }
-  .container-1 p {
+  .text-box h3, p{
     max-width: 315px;
-    width: 100%;
+  }
+  .blue-box{
+    margin-left: 10px;
+  }
+  .box-wraper-1{
+    justify-content: center;
+  }
+ 
+}
+
+
+@media (max-width:647){
+  .reasons-container{
+    justify-content: center;
   }
 }
+
+@media (max-width: 600px){
+  .blue-box{
+    max-width: 270px;
+    width: 100%;
+  }
+  .para-padding-bottom{
+    max-width: 200px;
+    width: 100%;
+  }
+  .golden-button{
+    max-width: 200px;
+    width: 100%;
+    margin-left: 0px;
+  }
+  .margin-blue-box{
+    padding-left: 10px;
+  }
+
+}
+
+@media (max-width:550px){
+  .par-box{
+    max-width: 300px;
+    width: 100%;
+    padding-left: 5px;
+  }
+
+  .par-box h1 {
+    padding: 5px;
+    max-width: 300px;
+    width: 100%;
+    font-size: 30px;
+   }
+
+   
+  .par-box h4 {
+    padding: 5px;
+    max-width: 300px;
+    width: 100%;
+   }
+
+   .contact-us-box{
+     margin-left: 5px;
+     max-width: 300px;
+     width: 100%;
+   }
+ 
+ 
+  .par-box p{
+    max-width: 300px;
+    width: 100%;
+    padding: 5px;
+   }
+
+  .heading-h4::before{
+    display: none;
+    padding-left: 0px;
+  }
+}
+
+
+@media (max-width: 350px){
+  .reasons-box{
+    max-width: 320px;
+    width: 100%;
+  }
+  .reasons-box p{
+    max-width: 320px;
+    width: 100%;
+  }
+  .small-box-1{
+    max-width: 320px;
+    width: 100%;
+  }
+  .icon{
+    max-width: 320px;
+    width: 100%;
+  }
+  .icon img{
+    width: 100%;
+  }
+
+}
+

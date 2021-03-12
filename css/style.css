@@ -1,31 +1,40 @@
-/* baseline styles */
-
-
-/* 
-
 /* header section */
 .header-wraper{
-    background: grey;
-    padding: 30px 0;
-    position: relative;
+    background-image: url(../img/slider.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.container-header{
+    max-width: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    margin-bottom: 200px;
 }
 .wrapper{
-    max-width: 1170px;
+    max-width: 100%
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-}
+} 
+
 a{
     color: #fff;
     padding: 7px 15px;
 }
+
 ul {
     padding: 20px 0;
     display: flex;
 }
+
 .burger-icon {
     display: none;
 }
@@ -34,33 +43,39 @@ ul {
 /* logo position */
 
 .logo{
-    margin-left: 300px;
+    margin
+    
 }
 
 .nav-ul{
     display: flex;
 }
+
 /* this are for the list name styles */
 .nav-a{ 
     color: #FFFFFF;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 12px;
 }
 
 .nav-li{
     margin-right: 30px;
 }
- */
+
+.nav-li-icon{
+    color: white;
+    margin-left: 20px;
+}
 
 
 /* paragraph box margins and sizes*/
 
 .par-box{
-    max-width: 800px;
+    max-width: 550px;
     width: 100%;
     margin-top: 190px;
-    margin-left: 175px;
+    padding-bottom: 100px;
 }
 
 .contact-us-box{
@@ -107,18 +122,22 @@ ul {
 .heading-h1{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
-    font-size: 64px;
+    font-size: 50px;
     color: #FFFFFF;
     padding-bottom: 27px;
     padding-left: 100px;
+    max-width: 550px;
+    width: 100%;
 }
 
-.par-style{
+.para-style{
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 22px;
     color: #FFFFFF;
     padding-left: 100px;
+    max-width: 450px;
+    width: 100%;
 }
 
 /* this will need to be changed in accordance with the child element number */
@@ -134,7 +153,6 @@ ul {
     display: flex;
     justify-content: space-around;
     padding-bottom: 100px;
-
 }
 
 /* image box styles */
@@ -240,7 +258,7 @@ ul {
 /* small box styles section */
 
 .box-wraper{
-    max-width: 1425px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -251,7 +269,7 @@ ul {
 }
 
 .small-box{
-    width: 450px;
+    width: 400px;
     text-align: center;
     margin-bottom: 23px;
 }
@@ -345,7 +363,8 @@ ul {
     position: absolute;
     z-index: 1;
     margin-top: 100px;
-    margin-left: 375px;
+    margin-left: 100px;
+    float: left;
 }
 
 .margin-blue-box{
@@ -359,6 +378,8 @@ ul {
 }
 
 .para-padding-bottom{
+    max-width: 300px;
+    width: 100%;
     padding-bottom: 48px;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
@@ -384,27 +405,6 @@ ul {
     font-size: 16px;
     color: white;
     padding-top: 18px;
-}
-
-
-.percentage-box{
-    float: right;
-    width: 420px;
-    margin-top: 100px;
-    margin-right: 200px;
-}
-
-.right-space{
-    padding-right: 112px;
-}
-
-.right-space2{
-    padding-right: 70px;
-}
-
-.first-line{
-    display: flex;
-    flex-wrap: wrap;
 }
 
 /* section 4 styles */
@@ -438,7 +438,7 @@ ul {
 }
 
 .box-wraper-1{
-    max-width: 1440px;
+    max-width: 100%;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -453,6 +453,8 @@ ul {
     width: 330px;
     text-align: center;
 }
+
+
 
 .icon{
     transition: 0.5s ease;
@@ -637,7 +639,7 @@ ul {
 /* footer */
 
 .footer-container{
-    max-width: 1440px;
+    max-width: 100%;
     width: 100%;
     margin: 0 auto;
     display: flex;
