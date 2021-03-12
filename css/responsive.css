@@ -13,7 +13,8 @@
     margin-top: 50px;
   }
   .img-box img{
-      width: 315px;
+      max-width: 315px;
+      width: 100%;
   }
   .container-1 p {
       width: 315px;
