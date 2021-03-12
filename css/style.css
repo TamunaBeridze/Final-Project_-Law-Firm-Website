@@ -156,6 +156,7 @@ ul {
 .text-box{
     max-width: 575px;
     width: 100%;
+    height: auto;
     margin-top: 172px;
     margin-left: 20px;
 }
@@ -173,7 +174,7 @@ ul {
     font-family: 'Roboto', sans-serif;
     font-weight: 300;
     font-size: 16px;
-    color: ##424242;
+    color: #424242;
     padding-bottom: 20px;
 }
 
