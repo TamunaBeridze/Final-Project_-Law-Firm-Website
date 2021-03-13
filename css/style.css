@@ -258,7 +258,7 @@ ul {
 /* small box styles section */
 
 .box-wraper{
-    max-width: 1200px;
+    max-width: 1140px;
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -269,7 +269,8 @@ ul {
 }
 
 .small-box{
-    width: 400px;
+    max-width: 350px;
+    width: 100%;
     text-align: center;
     margin-bottom: 23px;
 }
