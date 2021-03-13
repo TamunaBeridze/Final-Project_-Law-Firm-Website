@@ -638,7 +638,7 @@ ul {
 
 /* footer */
 
-.footer-container{
+.footer-container-1{
     max-width: 100%;
     width: 100%;
     margin: 0 auto;
@@ -648,20 +648,24 @@ ul {
     margin-top: 90px;
     margin-bottom: 100px;
 }
-.footer-box{
-    margin-bottom: 20px;
+
+.para-box-3{
+    max-width: 320px;
+    width: 100%;
+    
 }
-.footer-para{
-    width: 450px;
+.para-style-2{
+    max-width: 300px;
+    width: 100%;
     text-align: left;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
     color: #424242;
-    padding-top: 5px;
+    padding-top: 10px;
 }
 
-.footer-heading{
+.list-heading-2{
     font-family: 'Playfair Display', serif;
     font-weight: 700;
     font-size: 22px;
@@ -675,5 +679,8 @@ ul {
     font-size: 16px;
     color: #424242;
     padding-bottom: 15px;
-    width: 200px;
+    max-width: 250px;
+    width: 100%;
+    margin-bottom: 10px;
+    list-style-type: none;
 }

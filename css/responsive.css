@@ -8,7 +8,7 @@
 
 @media (max-width: 1040px){
   .background-4{
-    margin-top: 400px;
+    margin-top: 150px;
   }
 }
 
@@ -117,7 +117,23 @@
     display: none;
     padding-left: 0px;
   }
+
+  .para-style{
+    max-width: 300px;
+    width: 100%;
+    padding-left: 10px;
+
+  }
 }
+
+
+@media(max-width: 450px){
+  .black-box-heading{
+    max-width: 315px;
+    text-align: left;
+  }
+}
+
 
 
 @media (max-width: 350px){
@@ -141,5 +157,32 @@
     width: 100%;
   }
 
+  .footer-container-1{
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .footer-list{
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .para-box-3{
+    max-width: 300px;
+    width: 100%;
+  }
+
+  .para-style-2{
+    max-width: 200px;
+    width: 100%;
+  }
+  
+  .list-heading-2{
+    max-width: 200px;
+    width: 100%;
+  }
+
 }
+
+
 
